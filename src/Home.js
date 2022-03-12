@@ -68,10 +68,7 @@ class Home extends Component {
 
               <Carousel.Caption>
                 <h3 className="headercolorc2">C#</h3>
-                <p className="headercolorc2">
-                  I am sound with C# fundamentals and looking for opportunity to
-                  expand and implement my C# knowledge
-                </p>
+                <p className="headercolorc2">Sound with C# fundamentals</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
