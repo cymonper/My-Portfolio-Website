@@ -31,7 +31,7 @@ function App() {
                   Background
                 </Nav.Link>
                 <Nav.Link as={Link} to="/contactme">
-                  Contactme
+                  Contact Me
                 </Nav.Link>
               </Nav>
             </Container>
