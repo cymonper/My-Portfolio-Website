@@ -1,10 +1,10 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Link, Route } from "react-router-dom";
 import Contactme from "./Contactme";
 import Background from "./Background";
 import Home from "./Home";
-import { Nav, Navbar, Container } from "react-bootstrap";
+import { Nav, Navbar, Container, Button } from "react-bootstrap";
 import logo from "./Images/logo.svg";
 
 function App() {
@@ -39,12 +39,23 @@ function App() {
         </>
         <div>
           <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/My-Portfolio-Website/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/contactme" element={<Contactme />} />
             <Route path="/background" element={<Background />} />
           </Routes>
         </div>
       </BrowserRouter>
+      <div className="fltbtn">
+        <Button
+          href="https://www.linkedin.com/in/cymonpereira/"
+          size="sm"
+          variant="danger"
+        >
+          Hire Me !
+        </Button>
+      </div>
     </div>
   );
 }

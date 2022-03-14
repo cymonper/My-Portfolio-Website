@@ -29,7 +29,7 @@ class Home extends Component {
                 <h3 className="headercolorc2">HTML, CSS</h3>
                 <p className="headercolorc2">
                   I can build clean, attractive and fully responsive
-                  userinterface using HTML, CSS
+                  user-interfaces using HTML, CSS
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -39,7 +39,8 @@ class Home extends Component {
               <Carousel.Caption>
                 <h3 className="headercolorc2">JavaScript</h3>
                 <p className="headercolorc2">
-                  I can implement required functionalities using javascript
+                  I can make interactive and functional Web-Pages using
+                  Javascript
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -49,7 +50,7 @@ class Home extends Component {
               <Carousel.Caption>
                 <h3 className="headercolorc2">React (Library)</h3>
                 <p className="headercolorc2">
-                  ReactJS is my primary javascript Library
+                  ReactJS is my primary Javascript Library
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -68,7 +69,7 @@ class Home extends Component {
 
               <Carousel.Caption>
                 <h3 className="headercolorc2">C#</h3>
-                <p className="headercolorc2">Sound with C# fundamentals</p>
+                <p className="headercolorc2">I am sound with C# fundamentals</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
@@ -82,13 +83,12 @@ class Home extends Component {
         >
           <br />
           <h1 className="headercolor">About Me</h1>
-          <p className="headertwocolor" style={{ textAlign: "center" }}>
-            Hi I am Cymon, A Junior Web Developer seeking to obtain a creative
-            and challenging position that utilizes current knowledge of web
-            development and design. Having a positive outlook and am always
-            willing to learn new traits. I work well both independently and as
-            part of a team.
-          </p>
+          <h5 className="headertwocolor" style={{ textAlign: "center" }}>
+            Hi I am Cymon, fast and energetic web developer, seeking to obtain a
+            creative and challenging web-dev position. I Have a positive outlook
+            and I am always willing to learn new traits. I can work well both
+            independently and as part of a team.
+          </h5>
         </div>
         <div
           className="mt-5 "
@@ -99,7 +99,7 @@ class Home extends Component {
             paddingRight: "5%",
           }}
         >
-          <h1 className="headercolor">Skills</h1>
+          <h1 className="headercolor">My Skills</h1>
           <br />
           <h2 className="headertwocolor">Front-End Technologies</h2>
           <br />

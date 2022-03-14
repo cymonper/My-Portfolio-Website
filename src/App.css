@@ -55,11 +55,20 @@
 }
 
 .headertwocolor {
-  color: rgb(63, 63, 63);
+  color: rgb(83, 79, 79);
   text-shadow: 0.5px 0.5px 1px rgb(173, 172, 172);
 }
 
 .headercolorc2 {
   color: rgb(255, 255, 255);
   text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+
+.fltbtn {
+  text-shadow: 0.5px 0.5px 1px rgb(173, 172, 172);
+  margin-top: 22px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
 }
