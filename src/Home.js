@@ -84,8 +84,8 @@ class Home extends Component {
           <br />
           <h1 className="headercolor">About Me</h1>
           <h5 className="headertwocolor" style={{ textAlign: "center" }}>
-            Hi I am Cymon, fast and energetic web developer, seeking to obtain a
-            creative and challenging web-dev position. I Have a positive outlook
+            Hi I am Cymon, fast and energetic Web Developer, seeking to obtain a
+            creative and challenging web-dev position. I have a positive outlook
             and I am always willing to learn new traits. I can work well both
             independently and as part of a team.
           </h5>
@@ -235,6 +235,7 @@ class Home extends Component {
             </Card>
           </CardGroup>
         </div>
+        <div className="footer">Hi</div>
       </div>
     );
   }
