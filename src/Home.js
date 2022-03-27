@@ -9,10 +9,12 @@ import { Card, CardGroup } from "react-bootstrap";
 import jss from "./Images/javascript.svg";
 import html from "./Images/html.svg";
 import css from "./Images/css.svg";
-import csharp from "./Images/csharp.svg";
 import react from "./Images/react.svg";
 import python from "./Images/python.svg";
 import php from "./Images/php.svg";
+import angular from "./Images/angular.svg";
+import bootstrap from "./Images/bootstrap.svg";
+import nodejs from "./Images/nodejs.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Carousel } from "react-bootstrap";
@@ -55,21 +57,19 @@ class Home extends Component {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
+              <img className="d-block w-100 " src={fifth} alt="Third slide" />
+
+              <Carousel.Caption>
+                <h3 className="headercolorc2">Angular Framework</h3>
+                <p className="headercolorc2">And I love Angular too</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
               <img className="d-block w-100" src={fourth} alt="Second slide" />
 
               <Carousel.Caption>
                 <h3 className="headercolorc2">Python</h3>
-                <p className="headercolorc2">
-                  And yes I can code in Python too{" "}
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className="d-block w-100 " src={fifth} alt="Third slide" />
-
-              <Carousel.Caption>
-                <h3 className="headercolorc2">C#</h3>
-                <p className="headercolorc2">I am sound with C# fundamentals</p>
+                <p className="headercolorc2">Yes! I can code in Python </p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
@@ -99,9 +99,9 @@ class Home extends Component {
             paddingRight: "5%",
           }}
         >
-          <h1 className="headercolor">My Skills</h1>
+          <h1 className="headercolor"> Skills</h1>
           <br />
-          <h2 className="headertwocolor">Front-End Technologies</h2>
+          <h2 className="headertwocolor">Programming Languages</h2>
           <br />
           <CardGroup className="headertwocolor">
             <Card style={{ border: "0px" }}>
@@ -117,6 +117,67 @@ class Home extends Component {
               />
               <Card.Body>
                 <Card.Title>JavaScript</Card.Title>
+              </Card.Body>
+            </Card>
+
+            <Card style={{ border: "0px" }}>
+              <Card.Img
+                variant="top"
+                src={python}
+                style={{
+                  height: "100px",
+                  width: "160px",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                }}
+              />
+              <Card.Body>
+                <Card.Title>Python</Card.Title>
+              </Card.Body>
+            </Card>
+            <Card style={{ border: "0px" }}>
+              <Card.Img
+                variant="top"
+                src={php}
+                style={{
+                  height: "100px",
+                  width: "160px",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                }}
+              />
+              <Card.Body>
+                <Card.Title>PHP</Card.Title>
+              </Card.Body>
+            </Card>
+          </CardGroup>
+        </div>
+        <div
+          style={{
+            fontFamily: "VT323",
+            textAlign: "center",
+            paddingLeft: "5%",
+            paddingRight: "5%",
+            marginBottom: "7%",
+          }}
+        >
+          <br />
+          <h2 className="headertwocolor">Frontend Development</h2>
+          <br />
+          <CardGroup className="headertwocolor">
+            <Card style={{ border: "0px" }}>
+              <Card.Img
+                variant="top"
+                src={react}
+                style={{
+                  height: "100px",
+                  width: "160px",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                }}
+              />
+              <Card.Body className="headertwocolor">
+                <Card.Title>ReactJS Library</Card.Title>
               </Card.Body>
             </Card>
             <Card style={{ border: "0px" }}>
@@ -149,64 +210,45 @@ class Home extends Component {
                 <Card.Title>CSS3</Card.Title>
               </Card.Body>
             </Card>
+            <Card style={{ border: "0px" }}>
+              <Card.Img
+                variant="top"
+                src={angular}
+                style={{
+                  height: "100px",
+                  width: "160px",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                }}
+              />
+              <Card.Body>
+                <Card.Title>Angular</Card.Title>
+              </Card.Body>
+            </Card>
+            <Card style={{ border: "0px" }}>
+              <Card.Img
+                variant="top"
+                src={bootstrap}
+                style={{
+                  height: "100px",
+                  width: "160px",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                }}
+              />
+              <Card.Body>
+                <Card.Title>Bootstrap 5</Card.Title>
+              </Card.Body>
+            </Card>
           </CardGroup>
-        </div>
-        <div
-          style={{
-            fontFamily: "VT323",
-            textAlign: "center",
-            paddingLeft: "5%",
-            paddingRight: "5%",
-            marginBottom: "7%",
-          }}
-        >
-          <div
-            className="mt-5"
-            style={{
-              fontFamily: "VT323",
-              alignment: "center",
-            }}
-          >
-            <CardGroup>
-              <Card style={{ border: "0px" }}>
-                <Card.Img
-                  variant="top"
-                  src={react}
-                  style={{
-                    height: "100px",
-                    width: "160px",
-                    marginLeft: "auto",
-                    marginRight: "auto",
-                  }}
-                />
-                <Card.Body className="headertwocolor">
-                  <Card.Title>ReactJS Library</Card.Title>
-                </Card.Body>
-              </Card>
-              <Card style={{ border: "0px" }}>
-                <Card.Img
-                  variant="top"
-                  src={csharp}
-                  style={{
-                    height: "100px",
-                    width: "160px",
-                    marginLeft: "auto",
-                    marginRight: "auto",
-                  }}
-                />
-                <Card.Body className="headertwocolor">
-                  <Card.Title>C#</Card.Title>
-                </Card.Body>
-              </Card>
-            </CardGroup>
-          </div>
-          <h2 className="headertwocolor">Back-End Technologies</h2>
+          <br />
+          <h2 className="headertwocolor">Backend Development</h2>
           <br />
           <CardGroup className="headertwocolor">
             <Card style={{ border: "0px" }}>
               <Card.Img
                 variant="top"
-                src={php}
+                src={nodejs}
                 style={{
                   height: "100px",
                   width: "160px",
@@ -215,27 +257,11 @@ class Home extends Component {
                 }}
               />
               <Card.Body>
-                <Card.Title>PHP</Card.Title>
-              </Card.Body>
-            </Card>
-            <Card style={{ border: "0px" }}>
-              <Card.Img
-                variant="top"
-                src={python}
-                style={{
-                  height: "100px",
-                  width: "160px",
-                  marginLeft: "auto",
-                  marginRight: "auto",
-                }}
-              />
-              <Card.Body>
-                <Card.Title>Python</Card.Title>
+                <Card.Title>node.js</Card.Title>
               </Card.Body>
             </Card>
           </CardGroup>
         </div>
-        <div className="footer">Hi</div>
       </div>
     );
   }
