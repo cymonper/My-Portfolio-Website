@@ -134,7 +134,7 @@ class Home extends Component {
                 }}
               />
               <Card.Body>
-                <Card.Title>Typescript</Card.Title>
+                <Card.Title>Python</Card.Title>
               </Card.Body>
             </Card>
 
@@ -150,7 +150,7 @@ class Home extends Component {
                 }}
               />
               <Card.Body>
-                <Card.Title>Python</Card.Title>
+                <Card.Title>TypeScript</Card.Title>
               </Card.Body>
             </Card>
 
