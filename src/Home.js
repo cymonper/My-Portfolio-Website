@@ -9,6 +9,8 @@ import { Card, CardGroup } from "react-bootstrap";
 import jss from "./Images/javascript.svg";
 import html from "./Images/html.svg";
 import css from "./Images/css.svg";
+import typescript from "./Images/typescript.svg";
+
 import react from "./Images/react.svg";
 import python from "./Images/python.svg";
 import php from "./Images/php.svg";
@@ -132,9 +134,26 @@ class Home extends Component {
                 }}
               />
               <Card.Body>
+                <Card.Title>Typescript</Card.Title>
+              </Card.Body>
+            </Card>
+
+            <Card style={{ border: "0px" }}>
+              <Card.Img
+                variant="top"
+                src={typescript}
+                style={{
+                  height: "100px",
+                  width: "160px",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                }}
+              />
+              <Card.Body>
                 <Card.Title>Python</Card.Title>
               </Card.Body>
             </Card>
+
             <Card style={{ border: "0px" }}>
               <Card.Img
                 variant="top"
