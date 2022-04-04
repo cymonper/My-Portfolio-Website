@@ -1,12 +1,12 @@
-# My-Portfolio-Website
 - 👨‍💻 All of my projects are available at [https://github.com/cymonper/](https://github.com/cymonper/)
 
-- Project Link [https://cymonper.github.io/Ccoin-website/](https://cymonper.github.io/My-Portfolio-Website/)
+- GH-Pages Link [https://cymonper.github.io/My-Portfolio-Website/](https://cymonper.github.io/My-Portfolio-Website/)
 
 - 📫 How to reach me **cymonpereira@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
+<a href="https://linkedin.com/in/cymonpereira" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="cymonpereira" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
