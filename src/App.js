@@ -50,10 +50,10 @@ function App() {
       <div className="fltbtn">
         <Button
           href="https://www.linkedin.com/in/cymonpereira/"
-          size="sm"
           variant="danger"
+          className="hireme"
         >
-          Hire Me !
+          Connect
         </Button>
       </div>
     </div>

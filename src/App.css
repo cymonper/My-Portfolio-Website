@@ -46,7 +46,7 @@
 
 .headercolor {
   color: rgb(37, 36, 36);
-  text-shadow: 0.5px 0.5px 1px rgb(173, 172, 172);
+  text-shadow: 1px 1px 1px rgb(173, 172, 172);
 }
 
 .headercolorc {
@@ -54,8 +54,8 @@
 }
 
 .headertwocolor {
-  color: rgb(83, 79, 79);
-  text-shadow: 0.5px 0.5px 5px rgb(173, 172, 172);
+  color: rgb(58, 57, 57);
+  text-shadow: 0.5px 0.5px 5px rgba(173, 172, 172, 0.709);
 }
 
 .headercolorc2 {
@@ -67,7 +67,26 @@
   text-shadow: 0.5px 0.5px 1px rgb(173, 172, 172);
   margin-top: 22px;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 10px;
+  right: 10px;
   text-align: center;
+}
+
+.hireme {
+  box-shadow: 3px 3px 3px rgb(173, 172, 172);
+}
+
+.dropdown {
+  border-radius: 4px;
+  width: fit-content;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 3px 3px 3px rgb(173, 172, 172);
+  text-shadow: 0.5px 0.5px 1px rgb(173, 172, 172);
+}
+
+.contactme {
+  box-shadow: 3px 3px 3px rgb(173, 172, 172);
+  text-shadow: 0.5px 0.5px 1px rgb(173, 172, 172);
 }

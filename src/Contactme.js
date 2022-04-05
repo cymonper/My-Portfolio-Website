@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card, CardGroup } from "react-bootstrap";
+import { Card, CardGroup, Button } from "react-bootstrap";
 import github from "./Images/GITHUB.svg";
 import linkedin from "./Images/LINKEDIN.svg";
 import "./App.css";
@@ -30,16 +30,22 @@ class Contactme extends Component {
                 }}
               />
               <Card.Body className="headertwocolor">
-                <Card.Title className="headertwocolor">
+                <Card.Title
+                  style={{ fontSize: "25px", fontWeight: "550" }}
+                  className="headertwocolor"
+                >
                   My GitHub Profile
                 </Card.Title>
-                <Card.Text>Check out my other projects on GitHub</Card.Text>
-
-                <div className="btnanimation">
-                  <a href="https://github.com/cymonper" target="_">
-                    <input type="button" value="Visit" />
-                  </a>
-                </div>
+                <Card.Text style={{ fontSize: "18px" }}>
+                  Check out my other projects on GitHub
+                </Card.Text>
+                <Button
+                  href="https://github.com/cymonper/"
+                  variant="danger"
+                  className="contactme"
+                >
+                  Visit{" "}
+                </Button>
               </Card.Body>
             </Card>
             <Card style={{ border: "0px" }}>
@@ -54,16 +60,19 @@ class Contactme extends Component {
                 }}
               />
               <Card.Body className="headertwocolor">
-                <Card.Title>My Linkedin Profile</Card.Title>
-                <Card.Text>Lets connect on Linkedin :)</Card.Text>
-                <div className="btnanimation">
-                  <a
-                    href="https://www.linkedin.com/in/cymonpereira/"
-                    target="_"
-                  >
-                    <input type="button" value="Connect" />
-                  </a>
-                </div>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "550" }}>
+                  My Linkedin Profile
+                </Card.Title>
+                <Card.Text style={{ fontSize: "18px" }}>
+                  Lets connect on Linkedin :)
+                </Card.Text>
+                <Button
+                  href="https://www.linkedin.com/in/cymonpereira/"
+                  variant="danger"
+                  className="contactme"
+                >
+                  Connect{" "}
+                </Button>
               </Card.Body>
             </Card>
           </CardGroup>
