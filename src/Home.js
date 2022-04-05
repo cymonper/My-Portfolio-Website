@@ -32,8 +32,8 @@ class Home extends Component {
               <Carousel.Caption>
                 <h3 className="headercolorc2">HTML, CSS</h3>
                 <p className="headercolorc2">
-                  I can build clean, attractive and fully responsive
-                  user-interfaces using HTML, CSS
+                  I can build clean, attractive, and fully responsive
+                  user-interfaces using HTML5, CSS3
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -44,7 +44,7 @@ class Home extends Component {
                 <h3 className="headercolorc2">JavaScript</h3>
                 <p className="headercolorc2">
                   I can make interactive and functional Web-Pages using
-                  Javascript
+                  JavaScript
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -54,7 +54,7 @@ class Home extends Component {
               <Carousel.Caption>
                 <h3 className="headercolorc2">React (Library)</h3>
                 <p className="headercolorc2">
-                  ReactJS is my primary Javascript Library
+                  React.js is my primary JavaScript library
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -71,7 +71,9 @@ class Home extends Component {
 
               <Carousel.Caption>
                 <h3 className="headercolorc2">Python</h3>
-                <p className="headercolorc2">Yes! I can code in Python </p>
+                <p className="headercolorc2">
+                  Ofcourse Yes! I can code in Python{" "}
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
@@ -86,10 +88,10 @@ class Home extends Component {
           <br />
           <h1 className="headercolor">About Me</h1>
           <h5 className="headertwocolor" style={{ textAlign: "center" }}>
-            Hi I am Cymon, fast and energetic Web Developer, seeking to obtain a
-            creative and challenging web-dev position. I have a positive outlook
-            and I am always willing to learn new traits. I can work well both
-            independently and as part of a team.
+            Junior Web Developer seeking to obtain a creative and challenging
+            position that utilizes current knowledge of web development and
+            design. Having a positive outlook, always willing to learn new
+            traits, and works well both independently and as part of a team.
           </h5>
         </div>
         <div
