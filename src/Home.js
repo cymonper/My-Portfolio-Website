@@ -30,10 +30,10 @@ class Home extends Component {
             <Carousel.Item>
               <img className=" w-100 " src={first} alt="First slide" />
               <Carousel.Caption>
-                <h3 className="headercolorc2">HTML, CSS</h3>
+                <h3 className="headercolorc2">HTML5, CSS3</h3>
                 <p className="headercolorc2">
                   I can build clean, attractive, and fully responsive
-                  user-interfaces using HTML5, CSS3
+                  user-interfaces using HTML, CSS
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
