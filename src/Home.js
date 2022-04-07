@@ -10,7 +10,6 @@ import jss from "./Images/javascript.svg";
 import html from "./Images/html.svg";
 import css from "./Images/css.svg";
 import typescript from "./Images/typescript.svg";
-
 import react from "./Images/react.svg";
 import python from "./Images/python.svg";
 import php from "./Images/php.svg";
@@ -18,8 +17,11 @@ import angular from "./Images/angular.svg";
 import bootstrap from "./Images/bootstrap.svg";
 import nodejs from "./Images/nodejs.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { Carousel } from "react-bootstrap";
+import { Button } from "react-bootstrap";
+import cmd from "./Images/cmd.png";
+import games from "./Images/games.png";
+import ccoin from "./Images/ccoin.png";
 
 class Home extends Component {
   render() {
@@ -86,7 +88,7 @@ class Home extends Component {
           }}
         >
           <br />
-          <h1 className="headercolor">About Me</h1>
+          <h1 className="headercolor"> About Me </h1>
           <h5 className="headertwocolor" style={{ textAlign: "center" }}>
             Junior Web Developer seeking to obtain a creative and challenging
             position that utilizes current knowledge of web development and
@@ -279,6 +281,147 @@ class Home extends Component {
               />
               <Card.Body>
                 <Card.Title>node.js</Card.Title>
+              </Card.Body>
+            </Card>
+          </CardGroup>
+          <br />
+          <h1 className="headercolor">Personal Projects </h1>
+          <br />
+          <CardGroup>
+            <Card style={{ border: "0px" }}>
+              <Card.Img
+                variant="top"
+                src={games}
+                style={{
+                  marginTop: "4%",
+                  height: "150px",
+                  width: "150px",
+                  display: "block",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "5px",
+                  boxShadow: "5px 5px 5px rgb(173, 172, 172)",
+                }}
+              />
+            </Card>
+            <Card style={{ border: "0px" }}>
+              <Card.Title className="headertwocolor">
+                JavaScript Games
+              </Card.Title>
+              <Card.Text className="headertwocolor">
+                Fully responsive Game Boy themed games built using: JavaScript,
+                CSS3, React.js, HTML5, Bootstrap5.
+              </Card.Text>
+              <Card.Body>
+                <Button
+                  variant="danger"
+                  href="https://github.com/cymonper/Simple_Javascript_Games"
+                  className="contactme"
+                >
+                  GitHub Repo
+                </Button>
+                <br></br>
+                <br></br>
+                <Button
+                  variant="danger"
+                  href="https://cymonper.github.io/Simple_Javascript_Games/"
+                  className="contactme"
+                >
+                  Visit
+                </Button>
+              </Card.Body>
+            </Card>
+          </CardGroup>
+          <br></br>
+          <br></br>
+          <CardGroup>
+            <Card style={{ border: "0px" }}>
+              <Card.Img
+                variant="top"
+                src={ccoin}
+                style={{
+                  marginTop: "4%",
+                  height: "150px",
+                  width: "150px",
+                  display: "block",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "5px",
+                  boxShadow: "5px 5px 5px rgb(173, 172, 172)",
+                }}
+              />
+            </Card>
+            <Card style={{ border: "0px" }}>
+              <Card.Title className="headertwocolor">Ccoin</Card.Title>
+              <Card.Text className="headertwocolor">
+                Fully responsive cryptocurrency UI built using: JavaScript,
+                CSS3, React.js, Bootstrap5.
+              </Card.Text>
+              <Card.Body>
+                <Button
+                  variant="danger"
+                  href="https://github.com/cymonper/Ccoin-Website"
+                  className="contactme"
+                >
+                  GitHub Repo
+                </Button>
+                <br></br>
+                <br></br>
+                <Button
+                  variant="danger"
+                  href="https://cymonper.github.io/Ccoin-Website/"
+                  className="contactme"
+                >
+                  Visit
+                </Button>
+              </Card.Body>
+            </Card>
+          </CardGroup>
+          <br></br>
+          <br></br>
+
+          <CardGroup>
+            <Card style={{ border: "0px" }}>
+              <Card.Img
+                variant="top"
+                src={cmd}
+                style={{
+                  marginTop: "4%",
+                  height: "150px",
+                  width: "150px",
+                  display: "block",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "5px",
+                  boxShadow: "5px 5px 5px rgb(173, 172, 172)",
+                }}
+              />
+            </Card>
+            <Card style={{ border: "0px" }}>
+              <Card.Title className="headertwocolor">
+                Angular CMD Terminal
+              </Card.Title>
+              <Card.Text className="headertwocolor">
+                CMD terminal that executes 10 commands built using: TypeScript,
+                JavaScript, Angular framework, CSS3, HTML5
+              </Card.Text>
+              <Card.Body>
+                <Button
+                  variant="danger"
+                  href="https://github.com/cymonper/ng-cmd-terminal"
+                  className="contactme"
+                >
+                  GitHub Repo
+                </Button>
+                <br></br>
+                <br></br>
+                <Button
+                  variant="danger"
+                  href="https://cymonper.github.io/ng-cmd-terminal/"
+                  className="contactme"
+                >
+                  Visit
+                </Button>
               </Card.Body>
             </Card>
           </CardGroup>
