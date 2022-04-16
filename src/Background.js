@@ -5,6 +5,7 @@ import curtin from "./Images/curtin.jpg";
 import packt from "./Images/packt.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import nit from "./Images/nit.png";
 
 class Workandedu extends Component {
   render() {
@@ -80,11 +81,12 @@ class Workandedu extends Component {
               {" "}
               Education
             </h1>
+            <br></br>
             <CardGroup className="headertwocolor">
               <Card style={{ border: "0px" }}>
                 <Card.Img
                   variant="top"
-                  src={curtin}
+                  src={nit}
                   style={{
                     display: "block",
                     marginLeft: "auto",
@@ -100,17 +102,50 @@ class Workandedu extends Component {
                     style={{ fontSize: "25px", fontWeight: "550" }}
                     className="headertwocolor"
                   >
-                    Master of Science: Computer Science
+                    Professional Year
                   </Card.Title>
                   <Card.Text style={{ fontSize: "20px" }}>
-                    Curtin University
+                    NIT Australia
                   </Card.Text>
                   <Card.Text style={{ fontSize: "18px" }}>
-                    [ February 2019 to May 2021 ]
+                    [ September 2021 to September 2022 ]
                   </Card.Text>
                 </Card.Body>
               </Card>
             </CardGroup>
+            <div style={{ marginTop: "5%" }}>
+              <CardGroup className="headertwocolor">
+                <Card style={{ border: "0px" }}>
+                  <Card.Img
+                    variant="top"
+                    src={curtin}
+                    style={{
+                      display: "block",
+                      marginLeft: "auto",
+                      marginRight: "auto",
+                      width: "40%",
+                      borderRadius: "50%",
+                    }}
+                  />
+                </Card>
+                <Card style={{ border: "0px" }}>
+                  <Card.Body style={{ align: "center" }}>
+                    <Card.Title
+                      style={{ fontSize: "25px", fontWeight: "550" }}
+                      className="headertwocolor"
+                    >
+                      Master of Science: Computer Science
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "20px" }}>
+                      Curtin University
+                    </Card.Text>
+                    <Card.Text style={{ fontSize: "18px" }}>
+                      [ February 2019 to May 2021 ]
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </CardGroup>
+            </div>
           </div>
           <div style={{ marginTop: "5%" }}>
             <CardGroup>

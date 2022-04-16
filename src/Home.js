@@ -22,6 +22,7 @@ import { Button } from "react-bootstrap";
 import cmd from "./Images/cmd.png";
 import games from "./Images/games.png";
 import ccoin from "./Images/ccoin.png";
+import sql from "./Images/sql.svg";
 
 class Home extends Component {
   render() {
@@ -281,6 +282,21 @@ class Home extends Component {
               />
               <Card.Body>
                 <Card.Title>node.js</Card.Title>
+              </Card.Body>
+            </Card>
+            <Card style={{ border: "0px" }}>
+              <Card.Img
+                variant="top"
+                src={sql}
+                style={{
+                  height: "100px",
+                  width: "160px",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                }}
+              />
+              <Card.Body>
+                <Card.Title>MySQL</Card.Title>
               </Card.Body>
             </Card>
           </CardGroup>
