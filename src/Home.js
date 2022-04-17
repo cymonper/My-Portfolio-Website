@@ -91,10 +91,11 @@ class Home extends Component {
           <br />
           <h1 className="headercolor"> About Me </h1>
           <h5 className="headertwocolor" style={{ textAlign: "center" }}>
-            Junior Web Developer seeking to obtain a creative and challenging
-            position that utilizes current knowledge of web development and
-            design. Having a positive outlook, always willing to learn new
-            traits, and works well both independently and as part of a team.
+            Junior Software Developer seeking to obtain a creative and
+            challenging position that utilizes current knowledge of web
+            development and design. Having a positive outlook, always willing to
+            learn new traits, and works well both independently and as part of a
+            team.
           </h5>
         </div>
         <div
